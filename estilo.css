@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(232, 230, 230);
+}
+
+#historia img,
+#personagens img,
+#mapa img {
+    border-radius: 10px;
+    border: 3px solid black;
+    }
+
+body p,h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    }
+
+body h1 {
+    margin: 30px;
+    text-align: center;
+    font-family: "Bungee", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header .container{ 
+    background-color: rgb(232, 230, 230);
+    font-family: "Bungee", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    
+}
+
+header .container  {
+    text-align: center;
+}
+
+header .container ul li  { 
+    display:inline-block;
+    margin-left: 3%;
+}
+
+header .container a:hover{
+    background-color: black;
+    color:rgb(232, 230, 230);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+header .container a {
+    text-decoration: none;
+    color: black;
+}
+
+#historia .container {
+    display: flex;
+}
+
+#historia .container p {
+    margin-left: 10px;
+}
+
+
+#personagens .container div {
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+}
+
+#personagens .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#mapa p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#mapa .mapas,
+#mapa .paisagens {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+form {
+    margin-left: 38%;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    resize: none;
+}
+
+form button {
+    background-color:black;
+    color: white;
+    border: none;
+}
+
+form button:hover{
+    color: black;
+    background-color:rgb(232, 230, 230);
+    border: 2px solid black;
+}
+
+input:focus, textarea:focus{
+    outline-color: black;
+}
+
+
+
+.redes ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    border-radius: 5px;
+    background-color:black;
+    color: #ecf0f1;
+    margin-top: 10px;
+    padding: 16px 0;
+}
